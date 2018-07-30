@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/oauth/token" %}
 {% api-method-summary %}
-Get OAuth Token
+OAuth Token
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -26,11 +26,11 @@ OAuth grant type of `password`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="client\_id" type="string" required=true %}
-The OAuth client ID `:client_id`
+The OAuth client ID `{client_id}`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="client\_secret" type="string" required=true %}
-The OAuth clieint secret: `:client_secret`
+The OAuth clieint secret: `{client_secret}`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="email" type="string" required=true %}

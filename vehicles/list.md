@@ -6,7 +6,7 @@ description: The vehicle api for the logged in user
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/vehicles" %}
 {% api-method-summary %}
-Get Vehicle List
+Vehicle List
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -17,7 +17,7 @@ This endpoint retrieves the list of vehicles.
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `access_token` response from authentication
+Bearer `{access_token}` response from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
