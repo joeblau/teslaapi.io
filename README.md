@@ -1,9 +1,3 @@
----
-description: >-
-  Welcome to the Tesla API.  This page contains information about how to mobile,
-  web, and server clients to communicate with your Tesla products.
----
-
 # Tesla API
 
 ### How is this site organized?
