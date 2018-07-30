@@ -11,5 +11,5 @@
 
 ## Codes
 
-* [Options](codes/options.md)
-
+* [Model S Options](codes/models-options.md)
+* [Model X Options](codes/modelx-options.md)
