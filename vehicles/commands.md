@@ -19,7 +19,7 @@ Vehicle `{id}` from the vehicle list response
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `{auth_token}` from authentica
+Bearer `{auth_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
