@@ -1,4 +1,4 @@
-# Authorization
+# OAuth
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/oauth/token" %}
 {% api-method-summary %}
