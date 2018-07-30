@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/vehicles" %}
 {% api-method-summary %}
-Vehicle List
+Vehicles
 {% endapi-method-summary %}
 
 {% api-method-description %}
