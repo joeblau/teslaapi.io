@@ -16,3 +16,9 @@
 
 * [Model S Options](codes/models-options.md)
 * [Model X Options](codes/modelx-options.md)
+
+## Preferences
+
+* [Subscriptions](preferences/subscriptions.md)
+* [Notifications](preferences/notifications.md)
+

@@ -1,16 +1,34 @@
+---
+description: >-
+  Welcome to the Tesla API.  This page contains information about how to mobile,
+  web, and server clients to communicate with your Tesla products.
+---
+
 # Tesla API
 
+### How is this site organized?
 
+This site is broken into sections for differneet API information:
 
-## What is teslaapi.io?
+* Authencation - API commands to generate an `{access_token}` to communciate with your vehicle.
+* Vehicles - API commands to communiate between your vehicle and your client.
+* Codes - Localized Tesla vehicle option codes for the [Model S](codes/models-options.md) and [Model X](codes/modelx-options.md)
+
+### What Tesla products are supported?
+
+* Tesla Model S
+* Tesla Model X
+* Tesla Model 3
+
+### What is teslaapi.io?
 
 This is a community of develoeprs who are reverse engineering Tesla's API.
 
-## What are the client\_id and client\_secret values?
+### What are the client\_id and client\_secret values?
 
-Authentication to the Tesla API is done through OAath.  These values were retreived froms somebody's OAuth sesson and are now being used for API access.
+Authentication to the Tesla API is done through OAath. These values were retreived froms somebody's OAuth sesson and are now being used for API access.
 
-## Is this API offiical?
+### Is this API offiical?
 
-Absolutley not.  These end points are a result of reverse engineering Tesla's mobile appliations and vehcile software.
+Absolutley not. These endpoints are a result of reverse engineering Tesla's mobile appliations and vehcile software.
 

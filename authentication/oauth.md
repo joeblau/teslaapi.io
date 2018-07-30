@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/oauth/token" %}
 {% api-method-summary %}
-OAuth Token
+Token
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -22,7 +22,9 @@ This endpoint performs a login using the owners plain text email and password fr
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="grant\_type" type="string" required=true %}
-OAuth grant type of `password`
+OAuth grant types supported  
+- `refresh_token`  
+- `password`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="client\_id" type="string" required=true %}
@@ -75,5 +77,35 @@ Unauthorized access
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/oauth/revoke" %}
+{% api-method-summary %}
+Revoke
+{% endapi-method-summary %}
 
+{% api-method-description %}
+Revokes the `{access_token}` issued by the token command
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="token" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
