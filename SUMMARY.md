@@ -2,6 +2,10 @@
 
 * [Tesla API](README.md)
 
+## Authentication
+
+* [OAuth](authentication/oauth.md)
+
 ## Vehicles
 
 * [List](vehicles/list.md)
@@ -12,8 +16,3 @@
 
 * [Model S Options](codes/models-options.md)
 * [Model X Options](codes/modelx-options.md)
-
-## Authentication
-
-* [Auth](authentication/auth.md)
-
