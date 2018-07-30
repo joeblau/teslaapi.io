@@ -15,7 +15,7 @@
 ## User
 
 * [User](user/user.md)
-* [Device](user/referral.md)
+* [Device](user/device.md)
 
 ## Preferences
 
@@ -31,3 +31,4 @@
 
 * [Model S Options](codes/models-options.md)
 * [Model X Options](codes/modelx-options.md)
+
