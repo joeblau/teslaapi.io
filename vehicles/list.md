@@ -40,7 +40,7 @@ Cake successfully retrieved.
       ],
       "state": "online",
       "in_service": null,
-      "id_s": ":id",
+      "id_s": ":ids",
       "calendar_enabled": true,
       "backseat_token": null,
       "backseat_token_updated_at": null
