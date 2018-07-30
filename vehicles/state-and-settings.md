@@ -1,5 +1,5 @@
 ---
-description: State and settings of the Vehicle
+description: State and settings of the vehicle
 ---
 
 # State And Settings
@@ -16,7 +16,7 @@ Charge state inforamtion including battery limit, charge miles, charge volate, c
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name=":id" type="number" required=true %}
+{% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list response
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -31,7 +31,7 @@ Bearer `{access_token}` from authentication
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Charge state successful response..
+Charge state successful response.
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -98,7 +98,7 @@ Whether mobile access is enabled.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name=":id" type="number" required=true %}
+{% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehile list response
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -138,7 +138,7 @@ Climate settings including seats, vents battery, steering wheel, and preconditio
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name=":id" type="number" required=true %}
+{% api-method-parameter name=":id" type="integer" required=true %}
 Vehicle `{id}` from vehicle list response
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -207,7 +207,7 @@ Drive state including latitude, longitude, and heading of the vehicle.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name=":id" type="number" required=true %}
+{% api-method-parameter name=":id" type="integer" required=true %}
 Vehicle `{id}` from vehicle list response
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -260,7 +260,7 @@ Localization settings inlcuding distance units, temperature units, charge units,
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name=":id" type="number" required=true %}
+{% api-method-parameter name=":id" type="integer" required=true %}
 Vehicle `{id}` from vehicle list response
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
