@@ -1,7 +1,3 @@
----
-description: Commands to alter the vehicle state.
----
-
 # Commands
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/wake\_up" %}

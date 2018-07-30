@@ -1,7 +1,3 @@
----
-description: State and settings of the vehicle
----
-
 # State And Settings
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/data\_request/charge\_state" %}

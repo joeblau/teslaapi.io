@@ -1,7 +1,3 @@
----
-description: The vehicle api for the logged in user
----
-
 # List
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/vehicles" %}

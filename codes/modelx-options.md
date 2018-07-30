@@ -1,8 +1,6 @@
 # Model X Options
 
-
-### https://www.tesla.com/fr_CA/modelx/design
-
+## [https://www.tesla.com/fr\_CA/modelx/design](https://www.tesla.com/fr_CA/modelx/design)
 
 ```javascript
 {
@@ -64,12 +62,9 @@
   "WTUT": "Roues noir onyx 22 po",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/nl_NL/modelx/design
-
+## [https://www.tesla.com/nl\_NL/modelx/design](https://www.tesla.com/nl_NL/modelx/design)
 
 ```javascript
 {
@@ -143,12 +138,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/en_AU/modelx/design
-
+## [https://www.tesla.com/en\_AU/modelx/design](https://www.tesla.com/en_AU/modelx/design)
 
 ```javascript
 {
@@ -216,12 +208,9 @@
   "X043": "No Phone connector",
   "X044": "Phone connector"
 }
-
 ```
 
-
-### https://www.tesla.com/en_CA/modelx/design
-
+## [https://www.tesla.com/en\_CA/modelx/design](https://www.tesla.com/en_CA/modelx/design)
 
 ```javascript
 {
@@ -283,12 +272,9 @@
   "WTUT": "22\" Onyx Black Turbine Wheels",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/en_GB/modelx/design
-
+## [https://www.tesla.com/en\_GB/modelx/design](https://www.tesla.com/en_GB/modelx/design)
 
 ```javascript
 {
@@ -363,12 +349,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/en_HK/modelx/design
-
+## [https://www.tesla.com/en\_HK/modelx/design](https://www.tesla.com/en_HK/modelx/design)
 
 ```javascript
 {
@@ -435,12 +418,9 @@
   "X043": "No Phone connector",
   "X044": "Phone connector"
 }
-
 ```
 
-
-### https://www.tesla.com/en_IE/modelx/design
-
+## [https://www.tesla.com/en\_IE/modelx/design](https://www.tesla.com/en_IE/modelx/design)
 
 ```javascript
 {
@@ -515,12 +495,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/en_JO/modelx/design
-
+## [https://www.tesla.com/en\_JO/modelx/design](https://www.tesla.com/en_JO/modelx/design)
 
 ```javascript
 {
@@ -594,12 +571,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/en_MO/modelx/design
-
+## [https://www.tesla.com/en\_MO/modelx/design](https://www.tesla.com/en_MO/modelx/design)
 
 ```javascript
 {
@@ -666,12 +640,9 @@
   "X043": "No Phone connector",
   "X044": "Phone connector"
 }
-
 ```
 
-
-### https://www.tesla.com/en_NZ/modelx/design
-
+## [https://www.tesla.com/en\_NZ/modelx/design](https://www.tesla.com/en_NZ/modelx/design)
 
 ```javascript
 {
@@ -739,12 +710,9 @@
   "X043": "No Phone connector",
   "X044": "Phone connector"
 }
-
 ```
 
-
-### https://www.tesla.com/en_AE/modelx/design
-
+## [https://www.tesla.com/en\_AE/modelx/design](https://www.tesla.com/en_AE/modelx/design)
 
 ```javascript
 {
@@ -818,12 +786,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/modelx/design
-
+## [https://www.tesla.com/modelx/design](https://www.tesla.com/modelx/design)
 
 ```javascript
 {
@@ -886,12 +851,9 @@
   "WTUT": "22\" Onyx Black Wheels",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/fi_FI/modelx/design
-
+## [https://www.tesla.com/fi\_FI/modelx/design](https://www.tesla.com/fi_FI/modelx/design)
 
 ```javascript
 {
@@ -965,12 +927,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/fr_BE/modelx/design
-
+## [https://www.tesla.com/fr\_BE/modelx/design](https://www.tesla.com/fr_BE/modelx/design)
 
 ```javascript
 {
@@ -1044,12 +1003,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/fr_FR/modelx/design
-
+## [https://www.tesla.com/fr\_FR/modelx/design](https://www.tesla.com/fr_FR/modelx/design)
 
 ```javascript
 {
@@ -1123,12 +1079,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/da_DK/modelx/design
-
+## [https://www.tesla.com/da\_DK/modelx/design](https://www.tesla.com/da_DK/modelx/design)
 
 ```javascript
 {
@@ -1202,12 +1155,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/fr_LU/modelx/design
-
+## [https://www.tesla.com/fr\_LU/modelx/design](https://www.tesla.com/fr_LU/modelx/design)
 
 ```javascript
 {
@@ -1281,12 +1231,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/fr_CH/modelx/design
-
+## [https://www.tesla.com/fr\_CH/modelx/design](https://www.tesla.com/fr_CH/modelx/design)
 
 ```javascript
 {
@@ -1360,12 +1307,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/de_AT/modelx/design
-
+## [https://www.tesla.com/de\_AT/modelx/design](https://www.tesla.com/de_AT/modelx/design)
 
 ```javascript
 {
@@ -1439,12 +1383,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/de_DE/modelx/design
-
+## [https://www.tesla.com/de\_DE/modelx/design](https://www.tesla.com/de_DE/modelx/design)
 
 ```javascript
 {
@@ -1518,12 +1459,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/de_LU/modelx/design
-
+## [https://www.tesla.com/de\_LU/modelx/design](https://www.tesla.com/de_LU/modelx/design)
 
 ```javascript
 {
@@ -1597,12 +1535,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/de_CH/modelx/design
-
+## [https://www.tesla.com/de\_CH/modelx/design](https://www.tesla.com/de_CH/modelx/design)
 
 ```javascript
 {
@@ -1676,12 +1611,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/it_IT/modelx/design
-
+## [https://www.tesla.com/it\_IT/modelx/design](https://www.tesla.com/it_IT/modelx/design)
 
 ```javascript
 {
@@ -1755,12 +1687,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/it_CH/modelx/design
-
+## [https://www.tesla.com/it\_CH/modelx/design](https://www.tesla.com/it_CH/modelx/design)
 
 ```javascript
 {
@@ -1834,12 +1763,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/jp/modelx/design
-
+## [https://www.tesla.com/jp/modelx/design](https://www.tesla.com/jp/modelx/design)
 
 ```javascript
 {
@@ -1905,20 +1831,15 @@
   "X043": "電話コネクタなし",
   "X044": "電話コネクタ"
 }
-
 ```
 
-
-### https://www.tesla.com/ko_KR/modelx/design
-
+## [https://www.tesla.com/ko\_KR/modelx/design](https://www.tesla.com/ko_KR/modelx/design)
 
 ```javascript
 
 ```
 
-
-### https://www.tesla.com/no_NO/modelx/design
-
+## [https://www.tesla.com/no\_NO/modelx/design](https://www.tesla.com/no_NO/modelx/design)
 
 ```javascript
 {
@@ -1992,12 +1913,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/pt_PT/modelx/design
-
+## [https://www.tesla.com/pt\_PT/modelx/design](https://www.tesla.com/pt_PT/modelx/design)
 
 ```javascript
 {
@@ -2071,12 +1989,9 @@
   "WXW8": "Sem pneus de inverno Pirelli de 19\"",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/es_MX/modelx/design
-
+## [https://www.tesla.com/es\_MX/modelx/design](https://www.tesla.com/es_MX/modelx/design)
 
 ```javascript
 {
@@ -2138,12 +2053,9 @@
   "WTUT": "Rines negro onyx de 22\"",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/es_ES/modelx/design
-
+## [https://www.tesla.com/es\_ES/modelx/design](https://www.tesla.com/es_ES/modelx/design)
 
 ```javascript
 {
@@ -2217,12 +2129,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/nl_BE/modelx/design
-
+## [https://www.tesla.com/nl\_BE/modelx/design](https://www.tesla.com/nl_BE/modelx/design)
 
 ```javascript
 {
@@ -2296,12 +2205,9 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/zh_TW/modelx/design
-
+## [https://www.tesla.com/zh\_TW/modelx/design](https://www.tesla.com/zh_TW/modelx/design)
 
 ```javascript
 {
@@ -2372,12 +2278,9 @@
   "X043": " 沒有手機充電器",
   "X044": "手機充電器"
 }
-
 ```
 
-
-### https://www.tesla.com/zh_MO/modelx/design
-
+## [https://www.tesla.com/zh\_MO/modelx/design](https://www.tesla.com/zh_MO/modelx/design)
 
 ```javascript
 {
@@ -2444,12 +2347,9 @@
   "X043": "No Phone connector",
   "X044": "Phone connector"
 }
-
 ```
 
-
-### http://www.tesla.cn/modelx/design
-
+## [http://www.tesla.cn/modelx/design](http://www.tesla.cn/modelx/design)
 
 ```javascript
 {
@@ -2512,12 +2412,9 @@
   "WTUT": "22 英寸玛瑙黑涡轮轮毂",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/modelx/design
-
+## [https://www.tesla.com/modelx/design](https://www.tesla.com/modelx/design)
 
 ```javascript
 {
@@ -2580,12 +2477,9 @@
   "WTUT": "22\" Onyx Black Wheels",
   "X021": "No Active Spoiler"
 }
-
 ```
 
-
-### https://www.tesla.com/zh_HK/modelx/design
-
+## [https://www.tesla.com/zh\_HK/modelx/design](https://www.tesla.com/zh_HK/modelx/design)
 
 ```javascript
 {
@@ -2652,12 +2546,9 @@
   "X043": "No Phone connector",
   "X044": "Phone connector"
 }
-
 ```
 
-
-### https://www.tesla.com/sv_SE/modelx/design
-
+## [https://www.tesla.com/sv\_SE/modelx/design](https://www.tesla.com/sv_SE/modelx/design)
 
 ```javascript
 {
@@ -2731,7 +2622,5 @@
   "WXW8": "No 19\" Pirelli Winter Tires",
   "X021": "No Active Spoiler"
 }
-
 ```
-
 

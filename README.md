@@ -1,7 +1,3 @@
----
-description: Unofficial Open-Source Tesla API
----
-
 # Tesla API
 
 
