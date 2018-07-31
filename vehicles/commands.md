@@ -60,13 +60,260 @@ Wake up command successful response.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/COMMAND" %}
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/door_unlock" %}
 {% api-method-summary %}
-NAME
+Unlock Doors
 {% endapi-method-summary %}
 
 {% api-method-description %}
-COMMAND\_DESC
+Unlock doors of the vehicle
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/door_lock" %}
+{% api-method-summary %}
+Lock Doors
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Lock the doors of the vehicle
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/honk_horn" %}
+{% api-method-summary %}
+Honk Horn
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Honks the horn of the vehicle once
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/flash_lights" %}
+{% api-method-summary %}
+Flash Lights
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Flashes the lights of the vehicle once
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/auto_conditioning_start" %}
+{% api-method-summary %}
+Start HVAC System
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Start vehicle climent control system.  The vehicle will automatically determine whether to **heat** or **cool** based on set temperature.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/auto_conditioning_stop" %}
+{% api-method-summary %}
+Stop HVAC System
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Stop vehicle climent control system.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/set_temps?driver_temp=:driver_temp&passenger_temp=:passenger_temp" %}
+{% api-method-summary %}
+Set Temperature
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Set vehicle HVAC temperature
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -81,11 +328,14 @@ Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="PARAM\_NAME" type="string" required=true %}
-PARAM\_DESC
+{% api-method-query-parameters %}
+{% api-method-parameter name=":driver_temp" type="number" required=true %}
+Desired driver temperature in celcius
 {% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
+{% api-method-parameter name=":passenger_temp" type="number" required=true %}
+Desired passenger temperature in celcius
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -94,8 +344,547 @@ PARAM\_DESC
 
 {% endapi-method-response-example-description %}
 
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
 ```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/set_charge_limit?percent=:limit_value" %}
+{% api-method-summary %}
+Set Charge Limit
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Set vehilce charge limit
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name=":limit_value" type="number" required=true %}
+Percentage of charge to set the vehicle to
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/charge_max_range" %}
+{% api-method-summary %}
+Set Max Range Charge Limit
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Set vehicle to max charge limit
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/charge_standard" %}
+{% api-method-summary %}
+Set Standard Charge Limit
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Set vehicle to standard charge limit
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/sun_roof_control?state=:state&percent=:percent" %}
+{% api-method-summary %}
+Set Sun Roof
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Set vehicle sunroof if one is installed.  This is a no-op on vehicles without a sun roof.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name=":state" type="string" required=true %}
+Desired state of the panoramic roof
+`open` - 100%
+`closed` - 0%
+`comfort` - 80%
+`vent` - 15%
+`move` - Specific `:percent`
+{% endapi-method-parameter %}
+{% api-method-parameter name=":percent" type="number" required=false %}
+Percent to move the sun roof between 0 and 100
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/remote_start_drive?password=:password" %}
+{% api-method-summary %}
+Remote Start Drive
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Start vehicle keyless driving mode.  The vehicle must be placed in drive within 2 minutes of the response.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name=":password" type="string" required=true %}
+Password credentials for my.teslamotors.com
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/charge_port_door_open" %}
+{% api-method-summary %}
+Open Charge Port
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Opens vehicle charge port. Also unlocks the charge port if it is locked.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/charge_port_door_close" %}
+{% api-method-summary %}
+Close Charge Port
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Closes vehicle charge port.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/charge_start" %}
+{% api-method-summary %}
+Start Charging
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Starts vehicle charging.  Vehicle must be plugged in, have power available, and not at charge limit.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name="PARAM\_NAME" type="string" required=true %}
+PARAM\_DESC
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/charge_stop" %}
+{% api-method-summary %}
+Stop Charging
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Stop vehicle charging. Vehicle must be charging.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/upcoming_calendar_entries" %}
+{% api-method-summary %}
+Upcoming Calendar Entries
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Set upcoming calendar entries
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/set_valet_mode?on=:on&password=:password" %}
+{% api-method-summary %}
+Set Valet Mode
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Set vehicle valet mode on or off with a PIN to disable it from within the car. Reuses last PIN from previous valet session. Valet Mode limits the car's top speed to 70MPH and 80kW of acceleration power. It also disables Homelink, Bluetooth and Wifi settings, and the ability to disable mobile access to the car. It also hides your favorites, home, and work locations in navigation.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-query-parameters %}
+{% api-method-parameter name=":on" type="boolean" required=true %}
+Enable or disable valet mode
+{% endapi-method-parameter %}
+{% api-method-parameter name=":password" type="string" required=true %}
+Four digit pin for valet mode
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/reset_valet_pin" %}
+{% api-method-summary %}
+Reset valet PIN
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Resets vehicle valet PIN
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "result": true,
+    "reason": ""
+  }
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
