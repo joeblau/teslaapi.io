@@ -13,13 +13,13 @@ Wake up the vehicle.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="integer" required=true %}
-Vehicle `{id}` from the vehicle list response
+The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `{auth_token}` from authentication
+Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -60,5 +60,45 @@ Wake up command successful response.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/COMMAND" %}
+{% api-method-summary %}
+NAME
+{% endapi-method-summary %}
 
+{% api-method-description %}
+COMMAND\_DESC
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-body-parameters %}
+{% api-method-parameter name="PARAM\_NAME" type="string" required=true %}
+PARAM\_DESC
+{% endapi-method-parameter %}
+{% endapi-method-body-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 

@@ -5,7 +5,7 @@
 ## Authentication
 
 * [OAuth](authentication/oauth.md)
-* [User](user/user.md)
+* [User](authentication/user.md)
 
 ## Vehicles
 
@@ -15,7 +15,7 @@
 
 ## Preferences
 
-* [Device](user/device.md)
+* [Device](preferences/device.md)
 * [Subscriptions](preferences/subscriptions.md)
 * [Notifications](preferences/notifications.md)
 

@@ -6,17 +6,11 @@ Vehicle Subscriptions
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
-ID of the cake to get, for free of course.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authorization
@@ -24,17 +18,17 @@ Bearer `{access_token}` from authorization
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="device\_token" type="string" required=false %}
+{% api-method-parameter name="device\_token" type="string" required=true %}
 Sender device token
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="device\_type" type="string" %}
+{% api-method-parameter name="device\_type" type="string" required=true %}
 Subscriptoin device type  
 - `ios`  
 - `android`
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="bigint" type="boolean" %}
+{% api-method-parameter name="bigint" type="boolean" required=true %}
 `false`
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}

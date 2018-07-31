@@ -6,7 +6,7 @@ Notification Preferences
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
