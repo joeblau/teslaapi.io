@@ -5,6 +5,7 @@
 ## Authentication
 
 * [OAuth](authentication/oauth.md)
+* [User](user/user.md)
 
 ## Vehicles
 
@@ -12,13 +13,9 @@
 * [State And Settings](vehicles/state-and-settings.md)
 * [Commands](vehicles/commands.md)
 
-## User
-
-* [User](user/user.md)
-* [Device](user/device.md)
-
 ## Preferences
 
+* [Device](user/device.md)
 * [Subscriptions](preferences/subscriptions.md)
 * [Notifications](preferences/notifications.md)
 
