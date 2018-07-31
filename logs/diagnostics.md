@@ -1,7 +1,8 @@
 # Diagnostics
 
-{% api-method method="get" host="https://owner-api.teslamotors.com" path="" %}
+{% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/diagnostics" %}
 {% api-method-summary %}
+  
 Entitlements
 {% endapi-method-summary %}
 
@@ -11,11 +12,11 @@ Entitlements
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authorization
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -32,7 +33,7 @@ Entitlements
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://owner-api.teslamotors.com" path="" %}
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/diagnostics" %}
 {% api-method-summary %}
 Send
 {% endapi-method-summary %}
@@ -43,11 +44,11 @@ Send
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authorization
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
