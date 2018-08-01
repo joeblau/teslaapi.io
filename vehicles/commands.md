@@ -75,11 +75,13 @@ Unlock doors of the vehicle
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -116,11 +118,13 @@ Lock the doors of the vehicle
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -157,11 +161,13 @@ Honks the horn of the vehicle once
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -198,11 +204,13 @@ Flashes the lights of the vehicle once
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -239,11 +247,13 @@ Start vehicle climent control system. The vehicle will automatically determine w
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -280,11 +290,13 @@ Stop vehicle climent control system.
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -321,11 +333,13 @@ Set vehicle HVAC temperature
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":driver\_temp" type="number" required=true %}
@@ -372,11 +386,13 @@ Set vehilce charge limit
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":limit\_value" type="number" required=true %}
@@ -419,11 +435,13 @@ Set vehicle to max charge limit
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -460,11 +478,13 @@ Set vehicle to standard charge limit
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -501,11 +521,13 @@ Set vehicle sunroof if one is installed. This is a no-op on vehicles without a s
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":state" type="string" required=true %}
@@ -552,11 +574,13 @@ Start vehicle keyless driving mode. The vehicle must be placed in drive within 2
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":password" type="string" required=true %}
@@ -599,11 +623,13 @@ Opens vehicle charge port. Also unlocks the charge port if it is locked.
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -640,11 +666,13 @@ Closes vehicle charge port.
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -681,11 +709,13 @@ Starts vehicle charging. Vehicle must be plugged in, have power available, and n
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name="PARAM\_NAME" type="string" required=true %}
@@ -728,11 +758,13 @@ Stop vehicle charging. Vehicle must be charging.
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -769,11 +801,13 @@ Set upcoming calendar entries
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -810,11 +844,13 @@ Set vehicle valet mode on or off with a PIN to disable it from within the car. R
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":on" type="boolean" required=true %}
@@ -861,11 +897,13 @@ Resets vehicle valet PIN
 {% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
 
+{% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
