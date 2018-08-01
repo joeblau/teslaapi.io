@@ -531,7 +531,12 @@ Bearer `{access_token}` from authentication
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":state" type="string" required=true %}
-Desired state of the panoramic roof `open` - 100% `closed` - 0% `comfort` - 80% `vent` - 15% `move` - Specific `:percent`
+Desired state of the panoramic roof   
+- `open` - 100%   
+- `closed` - 0%   
+- `comfort` - 80%   
+- `vent` - 15%   
+- `move` - Specific `:percent`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name=":percent" type="number" required=false %}
