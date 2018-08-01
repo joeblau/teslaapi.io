@@ -12,7 +12,7 @@ Wake up the vehicle.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="integer" required=true %}
+{% api-method-parameter name=":id" type="integer" required=true %}
 The vehicle `{id}` from the vehicle list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -100,7 +100,6 @@ Bearer `{access_token}` from authentication
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/door\_lock" %}
 {% api-method-summary %}
@@ -231,7 +230,7 @@ Start HVAC System
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Start vehicle climent control system.  The vehicle will automatically determine whether to **heat** or **cool** based on set temperature.
+Start vehicle climent control system. The vehicle will automatically determine whether to **heat** or **cool** based on set temperature.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -307,7 +306,7 @@ Bearer `{access_token}` from authentication
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/set_temps?driver\_temp=:driver\_temp&passenger\_temp=:passenger\_temp" %}
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/set\_temps?driver\_temp=:driver\_temp&passenger\_temp=:passenger\_temp" %}
 {% api-method-summary %}
 Set Temperature
 {% endapi-method-summary %}
@@ -329,10 +328,11 @@ Bearer `{access_token}` from authentication
 {% endapi-method-path-parameters %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name=":driver_temp" type="number" required=true %}
+{% api-method-parameter name=":driver\_temp" type="number" required=true %}
 Desired driver temperature in celcius
 {% endapi-method-parameter %}
-{% api-method-parameter name=":passenger_temp" type="number" required=true %}
+
+{% api-method-parameter name=":passenger\_temp" type="number" required=true %}
 Desired passenger temperature in celcius
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
@@ -379,7 +379,7 @@ Bearer `{access_token}` from authentication
 {% endapi-method-path-parameters %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name=":limit_value" type="number" required=true %}
+{% api-method-parameter name=":limit\_value" type="number" required=true %}
 Percentage of charge to set the vehicle to
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
@@ -445,7 +445,6 @@ Bearer `{access_token}` from authentication
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/charge\_standard" %}
 {% api-method-summary %}
 Set Standard Charge Limit
@@ -493,7 +492,7 @@ Set Sun Roof
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Set vehicle sunroof if one is installed.  This is a no-op on vehicles without a sun roof.
+Set vehicle sunroof if one is installed. This is a no-op on vehicles without a sun roof.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -510,13 +509,9 @@ Bearer `{access_token}` from authentication
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":state" type="string" required=true %}
-Desired state of the panoramic roof
-`open` - 100%
-`closed` - 0%
-`comfort` - 80%
-`vent` - 15%
-`move` - Specific `:percent`
+Desired state of the panoramic roof `open` - 100% `closed` - 0% `comfort` - 80% `vent` - 15% `move` - Specific `:percent`
 {% endapi-method-parameter %}
+
 {% api-method-parameter name=":percent" type="number" required=false %}
 Percent to move the sun roof between 0 and 100
 {% endapi-method-parameter %}
@@ -548,7 +543,7 @@ Remote Start Drive
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Start vehicle keyless driving mode.  The vehicle must be placed in drive within 2 minutes of the response.
+Start vehicle keyless driving mode. The vehicle must be placed in drive within 2 minutes of the response.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -677,7 +672,7 @@ Start Charging
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Starts vehicle charging.  Vehicle must be plugged in, have power available, and not at charge limit.
+Starts vehicle charging. Vehicle must be plugged in, have power available, and not at charge limit.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -825,6 +820,7 @@ Bearer `{access_token}` from authentication
 {% api-method-parameter name=":on" type="boolean" required=true %}
 Enable or disable valet mode
 {% endapi-method-parameter %}
+
 {% api-method-parameter name=":password" type="string" required=true %}
 Four digit pin for valet mode
 {% endapi-method-parameter %}
