@@ -6,7 +6,7 @@ This site is broken into sections for differneet API information:
 
 * Authencation - API commands to generate an `{access_token}` to communciate with your vehicle.
 * Vehicles - API commands to communiate between your vehicle and your client.
-* Codes - Localized Tesla vehicle option codes for the [Model S](codes/models-options.md) and [Model X](codes/modelx-options.md)
+* Codes - Localized Tesla vehicle option codes for the [Model S](codes/model-s-options.md) and [Model X](codes/model-x-options.md)
 
 ### What Tesla products are supported?
 
