@@ -564,7 +564,6 @@ Percent to move the sun roof between 0 and 100
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/actuate\_trunk" %}
 {% api-method-summary %}
 Actuate Trunk
