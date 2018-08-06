@@ -19,7 +19,13 @@
 
 ## Powerwalls
 
+* [State And Settings](powerwalls/state-and-settings.md)
+* [Commands](powerwalls/commands.md)
+
 ## Energy Sites
+
+* [State And Settings](energy-sites/state-and-settings.md)
+* [Commands](energy-sites/commands.md)
 
 ## Preferences
 
