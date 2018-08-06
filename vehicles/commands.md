@@ -1083,7 +1083,7 @@ Bearer `{access_token}` from authentication
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/speed\_limit\_clear\_pin" %}
 {% api-method-summary %}
-Speed Limit Clear Pin
+Speed Limit Clear PIN
 {% endapi-method-summary %}
 
 {% api-method-description %}
