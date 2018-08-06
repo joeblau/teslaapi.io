@@ -7,11 +7,19 @@
 * [OAuth](authentication/oauth.md)
 * [User](authentication/user.md)
 
+## Products
+
+* [List](products/list.md)
+
 ## Vehicles
 
 * [List](vehicles/list.md)
 * [State And Settings](vehicles/state-and-settings.md)
 * [Commands](vehicles/commands.md)
+
+## Powerwalls
+
+## Energy Sites
 
 ## Preferences
 
@@ -28,12 +36,3 @@
 
 * [Model S Options](codes/model-s-options.md)
 * [Model X Options](codes/model-x-options.md)
-
-## Products
-
-* [List](products/list.md)
-
-## Powerwalls
-
-## Energy Sites
-
