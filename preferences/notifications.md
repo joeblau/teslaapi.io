@@ -140,5 +140,35 @@ List of notification subscriptoins
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/notification\_confirmations" %}
+{% api-method-summary %}
+Send Notification Confirmation
+{% endapi-method-summary %}
 
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authentication
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
