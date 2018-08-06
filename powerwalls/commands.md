@@ -34,7 +34,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -72,7 +72,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -110,7 +110,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}

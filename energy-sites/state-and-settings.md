@@ -1,5 +1,9 @@
 # State And Settings
 
+{% hint style="warning" %}
+Work In Progress
+{% endhint %}
+
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/energy\_sites/:site\_id/status" %}
 {% api-method-summary %}
 Site Summary
@@ -30,7 +34,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -68,7 +72,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -106,7 +110,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -144,7 +148,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
