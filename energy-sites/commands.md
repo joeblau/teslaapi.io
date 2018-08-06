@@ -13,13 +13,13 @@ Backup Reserve
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":site\_id" type="integer" required=true %}
-
+The `{site_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-
+Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -51,13 +51,13 @@ Site Name
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":site\_id" type="integer" required=true %}
-
+The `{site_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-
+Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -89,13 +89,13 @@ Operation Mode
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":site\_id" type="integer" required=true %}
-
+The `{site_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-
+Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -127,13 +127,13 @@ Time Of Use Settings
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":site\_id" type="integer" required=true %}
-
+The `{site_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-
+Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}
@@ -165,13 +165,13 @@ Storm Mode
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":site\_id" type="integer" required=true %}
-
+The `{site_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-
+Bearer `{access_token}` from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 {% endapi-method-request %}

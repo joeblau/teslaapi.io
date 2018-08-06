@@ -17,7 +17,7 @@ Battery Backup Reserve
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":battery\_id" type="integer" required=true %}
-
+The `{battery_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -55,7 +55,7 @@ Battery Site Name
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":battery\_id" type="integer" required=true %}
-
+The `{battery_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -93,7 +93,7 @@ Battery Operation Mode
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":battery\_id" type="integer" required=true %}
-
+The `{battery_id}` from the products list
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
