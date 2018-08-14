@@ -23,7 +23,7 @@ Sender device token
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="device\_type" type="string" required=true %}
-Subscriptoin device type  
+Subscription device type  
 - `ios`  
 - `android`
 {% endapi-method-parameter %}
@@ -76,7 +76,7 @@ Subscription device type
 - `android`
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="vehicle\_subscriptoins" type="array" required=true %}
+{% api-method-parameter name="vehicle\_subscriptions" type="array" required=true %}
 `["1237331239112123"]`
 {% endapi-method-parameter %}
 

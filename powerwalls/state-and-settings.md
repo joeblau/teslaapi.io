@@ -82,7 +82,7 @@ Bearer `{access_token}` from authentication
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/powerwalls/:battery\_id/powerhistory" %}
 {% api-method-summary %}
-Battery Power Timeseries Data
+Battery Power Time-series Data
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -98,7 +98,7 @@ The `{battery_id}` from the products list
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Authorizaiton" type="string" required=true %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
 Bearer {access\_token} from authentication
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
@@ -120,7 +120,7 @@ Bearer {access\_token} from authentication
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/powerwalls/:battery\_id/energyhistory" %}
 {% api-method-summary %}
-Battery Energy Timeseries Data
+Battery Energy Time-series Data
 {% endapi-method-summary %}
 
 {% api-method-description %}

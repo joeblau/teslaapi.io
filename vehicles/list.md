@@ -60,7 +60,7 @@ Vehicle
 {% endapi-method-summary %}
 
 {% api-method-description %}
-A specific vechile for the authenticated user
+A specific vehicle for the authenticated user
 {% endapi-method-description %}
 
 {% api-method-spec %}

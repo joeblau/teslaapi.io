@@ -27,13 +27,13 @@ Sender device token
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="device\_type" type="string" required=true %}
-Notification subscriptoin device type  
+Notification subscription device type  
 - `ios`  
 - `android`
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="platfrom" type="string" required=true %}
-Notificatoin subscriptoin platfrom  
+{% api-method-parameter name="platform" type="string" required=true %}
+Notification subscription platform  
 - ios  
 - android
 {% endapi-method-parameter %}
@@ -85,13 +85,13 @@ Sender device token
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="device\_type" type="string" required=true %}
-Notifiaction subscriptoin device type  
+Notification subscription device type  
 - `ios`  
 - `android`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="platform" type="string" required=true %}
-Notification subscriptoin platfrom  
+Notification subscription platform  
 - `ios`  
 - `android`
 {% endapi-method-parameter %}
@@ -101,7 +101,7 @@ App version sending notification
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="notification\_preferences" type="object" required=true %}
-List of notification subscriptoins  
+List of notification subscriptions  
   
 `{  
 "alarm":true,  

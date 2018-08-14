@@ -82,7 +82,7 @@ Bearer `{access_token}` from authentication
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/energy\_sites/:site\_id/site\_info" %}
 {% api-method-summary %}
-Site Config
+Site Configuration
 {% endapi-method-summary %}
 
 {% api-method-description %}
