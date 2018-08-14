@@ -238,7 +238,7 @@ Start HVAC System
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Start vehicle climent control system. The vehicle will automatically determine whether to **heat** or **cool** based on set temperature.
+Start vehicle climate control system. The vehicle will automatically determine whether to **heat** or **cool** based on set temperature.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -281,7 +281,7 @@ Stop HVAC System
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Stop vehicle climent control system.
+Stop vehicle climate control system.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -343,11 +343,11 @@ Bearer `{access_token}` from authentication
 
 {% api-method-query-parameters %}
 {% api-method-parameter name=":driver\_temp" type="number" required=true %}
-Desired driver temperature in celcius
+Desired driver temperature in Celsius
 {% endapi-method-parameter %}
 
 {% api-method-parameter name=":passenger\_temp" type="number" required=true %}
-Desired passenger temperature in celcius
+Desired passenger temperature in Celsius
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
 {% endapi-method-request %}
@@ -377,7 +377,7 @@ Set Charge Limit
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Set vehilce charge limit
+Set vehicle charge limit
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -607,7 +607,7 @@ Remote Start Drive
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Start vehicle keyless driving mode. The vehicle must be placed in drive within 2 minutes of the response.
+Start vehicle key-less driving mode. The vehicle must be placed in drive within 2 minutes of the response.
 {% endapi-method-description %}
 
 {% api-method-spec %}

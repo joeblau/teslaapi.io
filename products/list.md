@@ -6,7 +6,7 @@ Products
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Returns all prdocuts including vehicles, powerwalls, and energy sites
+Returns all products including vehicles, powerwalls, and energy sites
 {% endapi-method-description %}
 
 {% api-method-spec %}

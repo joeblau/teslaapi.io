@@ -32,14 +32,14 @@ The OAuth client ID `{client_id}`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="client\_secret" type="string" required=true %}
-The OAuth clieint secret: `{client_secret}`
+The OAuth client secret: `{client_secret}`
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="email" type="string" required=true %}
 Owner email address for my.teslamotors.com
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="passowrd" type="string" required=true %}
+{% api-method-parameter name="password" type="string" required=true %}
 Owner password for my.teslamotors.com
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}

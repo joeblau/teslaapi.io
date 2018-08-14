@@ -70,7 +70,7 @@ Referral Data
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Referral data infomration
+Referral data information
 {% endapi-method-description %}
 
 {% api-method-spec %}

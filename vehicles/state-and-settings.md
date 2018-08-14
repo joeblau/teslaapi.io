@@ -217,7 +217,7 @@ Whether mobile access is enabled.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name=":id" type="integer" required=true %}
-The vehicle `{id}` from the vehile list response
+The vehicle `{id}` from the vehicle list response
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -250,7 +250,7 @@ Charge State
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Charge state inforamtion including battery limit, charge miles, charge volate, charge phases, current, charge management, and battery heater status.
+Charge state information including battery limit, charge miles, charge voltage, charge phases, current, charge management, and battery heater status.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -454,7 +454,7 @@ GUI Settings
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Localization settings inlcuding distance units, temperature units, charge units, and clock hour style.
+Localization settings including distance units, temperature units, charge units, and clock hour style.
 {% endapi-method-description %}
 
 {% api-method-spec %}
