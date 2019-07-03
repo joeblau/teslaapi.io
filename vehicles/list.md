@@ -111,5 +111,3 @@ Bearer `{access_token}` response from authentication
 {% endapi-method-spec %}
 {% endapi-method %}
 
-
-

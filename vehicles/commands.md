@@ -507,60 +507,16 @@ Bearer `{access_token}` from authentication
 {% endapi-method %}
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/sun\_roof\_control?state=:state&percent=:percent" %}
-{% api-method-summary %}
-Sun Roof Control
-{% endapi-method-summary %}
 
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name=":id" type="integer" required=true %}
-The vehicle `{id}` from the vehicle list
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `{access_token}` from authentication
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
-{% api-method-body-parameters %}
-{% api-method-parameter name="state" type="string" required=false %}
-- `open` - 100%  
-- `closed` - 0%  
-- `comfort` - 80%  
-- `vent` - 15%  
-- `move` - specify {percent}
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="percent" type="integer" required=false %}
-Percent to open sunroof between `0` and `100`
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+* `open` - 100%  
+* `closed` - 0%  
+* `comfort` - 80%  
+* `vent` - 15%  
+* `move` - specify {percent}
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/command/actuate\_trunk" %}
 {% api-method-summary %}
-Actuate Trunk
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -570,16 +526,10 @@ Open vehicles trunk or frunk. Call endpoint again to close trunk.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name=":id" type="integer" required=true %}
-The vehicle `{id}` from the vehicle list
+{% api-method-parameter name="" type="string" required=false %}
+
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
-
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `{access_token}` from authentication
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -997,7 +947,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -1035,7 +985,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -1073,7 +1023,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -1111,7 +1061,7 @@ Bearer `{access_token}` from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}

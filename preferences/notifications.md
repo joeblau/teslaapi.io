@@ -1,148 +1,32 @@
 # Notifications
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/notification\_preferences" %}
-{% api-method-summary %}
-Notification Preferences
-{% endapi-method-summary %}
 
-{% api-method-description %}
+Notification subscription device type
 
-{% endapi-method-description %}
+* `ios`  
+* `android`
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `{access_token}` from authorization.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+Notification subscription platform
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="locale" type="string" required=true %}
-`en`
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="device\_token" type="string" required=true %}
-Sender device token
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="device\_type" type="string" required=true %}
-Notification subscription device type  
-- `ios`  
-- `android`
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="platform" type="string" required=true %}
-Notification subscription platform  
-- ios  
-- android
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="app\_version" type="number" required=true %}
-App version sending notification
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+* ios  
+* android
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/notification\_preferences" %}
-{% api-method-summary %}
-Notification Preferences
-{% endapi-method-summary %}
 
-{% api-method-description %}
+Notification subscription device type
 
-{% endapi-method-description %}
+* `ios`  
+* `android`
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `{access_token}` from authorization.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+Notification subscription platform
 
-{% api-method-body-parameters %}
-{% api-method-parameter name="locale" type="string" required=true %}
-`en`
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="device\_token" type="string" required=true %}
-Sender device token
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="device\_type" type="string" required=true %}
-Notification subscription device type  
-- `ios`  
-- `android`
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="platform" type="string" required=true %}
-Notification subscription platform  
-- `ios`  
-- `android`
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="app\_version" type="string" required=true %}
-App version sending notification
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="notification\_preferences" type="object" required=true %}
-List of notification subscriptions  
-  
-`{  
-"alarm":true,  
-"autopark_forward_started":true,  
-"autopark_completed_success":true,  
-"autopark_unavailable_plugged_in":true,  
-"charging_started":true,  
-"charging_interrupted":true,  
-"charging_complete":true,  
-"key_added":true,  
-"key_removed":true,  
-"update_available":true,  
-"climate_keeper_ended_soc":true,  
-"car_active":true,  
-"refer_friend":true,  
-"secret_level":true,  
-"please_move_car":true,  
-"grid_fault_contactor_trip":true,  
-"grid_resync_success":true​  
-}`  
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+* `ios`  
+* `android`
 
 {% api-method method="post" host="https://owner-api.teslamotors.com" path="/api/1/notification\_confirmations" %}
 {% api-method-summary %}
-Send Notification Confirmation
+
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -152,8 +36,8 @@ Send Notification Confirmation
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Authorization" type="string" required=true %}
-Bearer `{access_token}` from authentication
+{% api-method-parameter name="" type="string" required=false %}
+
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}

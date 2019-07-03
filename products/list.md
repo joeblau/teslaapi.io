@@ -24,7 +24,7 @@ Bearer `{access_token}` response from authentication
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "response": [
     {
@@ -53,6 +53,4 @@ Bearer `{access_token}` response from authentication
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-
 

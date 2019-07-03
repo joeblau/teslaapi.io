@@ -24,7 +24,7 @@ Bearer `{access_token}` from authorization
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -56,7 +56,7 @@ Bearer `{access_token}` from authorization
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -88,7 +88,7 @@ Bearer `{access_token}` from authorization
 Feature disabled
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "response": {
     "feature_enabled": false
@@ -124,7 +124,7 @@ Bearer `{access_token}` from authorization
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -156,7 +156,7 @@ Bearer `{access_token}` from authorization
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}

@@ -2,11 +2,11 @@
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/data" %}
 {% api-method-summary %}
-Data
+Vehicle Data \(Legacy\)
 {% endapi-method-summary %}
 
 {% api-method-description %}
-All of the vehicle data.
+All of the **legacy** vehicle data
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -198,6 +198,269 @@ Bearer `{access_token}` from authorization
     }
   }
 }
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/vehicle\_data" %}
+{% api-method-summary %}
+Vehicle Data
+{% endapi-method-summary %}
+
+{% api-method-description %}
+All of the vehicle data
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authorization
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
+{
+  "response": {
+    "id": 45226696177987462,
+    "user_id": 134950,
+    "vehicle_id": 163057375,
+    "vin": ":vin",
+    "display_name": ":name",
+    "option_codes": "AD15,AF02,AH00,APF0,APH2,APPA,AU00,BCMB,BP00,BR00,BS00,BTX4,CC02,CDM0,CH05,COUS,CW02,DRLH,DSH7,DV4W,FG02,FR01,GLFR,HC00,HP00,IDBO,INBPB,IX01,LP01,LT3B,MDLX,ME02,MI02,PF00,PI01,PK00,PMBL,QLPB,RCX0,RENA,RFPX,S02B,SP00,SR04,ST02,SU01,TIC4,TM00,TP03,TR01,TRA1,TW01,UM01,USSB,UTAB,WT20,X001,X003,X007,X011,X014,X021,X025,X026,X028,X031,X037,X040,X042,YFFC,SC05",
+    "color": null,
+    "tokens": [
+      ":token1",
+      ":token2"
+    ],
+    "state": "online",
+    "in_service": false,
+    "id_s": ":ids",
+    "calendar_enabled": true,
+    "api_version": 6,
+    "backseat_token": null,
+    "backseat_token_updated_at": null,
+    "charge_state": {
+      "battery_heater_on": false,
+      "battery_level": 74,
+      "battery_range": 186.57,
+      "charge_current_request": 48,
+      "charge_current_request_max": 48,
+      "charge_enable_request": true,
+      "charge_energy_added": 29.64,
+      "charge_limit_soc": 90,
+      "charge_limit_soc_max": 100,
+      "charge_limit_soc_min": 50,
+      "charge_limit_soc_std": 90,
+      "charge_miles_added_ideal": 117.0,
+      "charge_miles_added_rated": 91.5,
+      "charge_port_cold_weather_mode": null,
+      "charge_port_door_open": false,
+      "charge_port_latch": "Engaged",
+      "charge_rate": 0.0,
+      "charge_to_max_range": false,
+      "charger_actual_current": 0,
+      "charger_phases": null,
+      "charger_pilot_current": 48,
+      "charger_power": 0,
+      "charger_voltage": 0,
+      "charging_state": "Disconnected",
+      "conn_charge_cable": "<invalid>",
+      "est_battery_range": 146.18,
+      "fast_charger_brand": "<invalid>",
+      "fast_charger_present": false,
+      "fast_charger_type": "<invalid>",
+      "ideal_battery_range": 238.93,
+      "managed_charging_active": false,
+      "managed_charging_start_time": null,
+      "managed_charging_user_canceled": false,
+      "max_range_charge_counter": 0,
+      "not_enough_power_to_heat": false,
+      "scheduled_charging_pending": false,
+      "scheduled_charging_start_time": null,
+      "time_to_full_charge": 0.0,
+      "timestamp": 1558229319159,
+      "trip_charging": false,
+      "usable_battery_level": 74,
+      "user_charge_enable_request": null
+    },
+    "climate_state": {
+      "battery_heater": false,
+      "battery_heater_no_power": false,
+      "climate_keeper_mode": "off",
+      "driver_temp_setting": 20.0,
+      "fan_status": 0,
+      "inside_temp": 29.0,
+      "is_auto_conditioning_on": false,
+      "is_climate_on": false,
+      "is_front_defroster_on": false,
+      "is_preconditioning": false,
+      "is_rear_defroster_on": false,
+      "left_temp_direction": -240,
+      "max_avail_temp": 28.0,
+      "min_avail_temp": 15.0,
+      "outside_temp": 24.0,
+      "passenger_temp_setting": 20.0,
+      "remote_heater_control_enabled": false,
+      "right_temp_direction": -240,
+      "seat_heater_left": 0,
+      "seat_heater_rear_left": 0,
+      "seat_heater_rear_right": 0,
+      "seat_heater_right": 0,
+      "seat_heater_third_row_left": 0,
+      "seat_heater_third_row_right": 0,
+      "side_mirror_heaters": false,
+      "smart_preconditioning": false,
+      "steering_wheel_heater": false,
+      "timestamp": 1558229319159,
+      "wiper_blade_heater": false
+    },
+    "drive_state": {
+      "gps_as_of": 1558229088,
+      "heading": 163,
+      "latitude": 40.459698,
+      "longitude": -79.92347,
+      "native_latitude": 40.459698,
+      "native_location_supported": 1,
+      "native_longitude": -79.92347,
+      "native_type": "wgs",
+      "power": null,
+      "shift_state": null,
+      "speed": null,
+      "timestamp": 1558229319160
+    },
+    "gui_settings": {
+      "gui_24_hour_time": false,
+      "gui_charge_rate_units": "mi/hr",
+      "gui_distance_units": "mi/hr",
+      "gui_range_display": "Rated",
+      "gui_temperature_units": "F",
+      "timestamp": 1558229319160
+    },
+    "vehicle_config": {
+      "can_accept_navigation_requests": true,
+      "can_actuate_trunks": true,
+      "car_special_type": "base",
+      "car_type": "modelx",
+      "charge_port_type": "US",
+      "eu_vehicle": false,
+      "exterior_color": "MetallicBlack",
+      "has_air_suspension": true,
+      "has_ludicrous_mode": false,
+      "motorized_charge_port": true,
+      "perf_config": "P1",
+      "plg": true,
+      "rear_seat_heaters": 3,
+      "rear_seat_type": 3,
+      "rhd": false,
+      "roof_color": "None",
+      "seat_type": 0,
+      "spoiler_type": "Passive",
+      "sun_roof_installed": 0,
+      "third_row_seats": "FuturisFoldFlat",
+      "timestamp": 1558229319160,
+      "trim_badging": "90d",
+      "wheel_type": "AeroTurbine20"
+    },
+    "vehicle_state": {
+      "api_version": 6,
+      "autopark_state_v2": "ready",
+      "autopark_style": "dead_man",
+      "calendar_supported": true,
+      "car_version": "2019.12.1.1 4b1dd29",
+      "center_display_state": 0,
+      "df": 0,
+      "dr": 0,
+      "ft": 0,
+      "homelink_nearby": false,
+      "is_user_present": false,
+      "last_autopark_error": "no_error",
+      "locked": true,
+      "media_state": {
+        "remote_control_enabled": true
+      },
+      "notifications_supported": true,
+      "odometer": 20101.093888,
+      "parsed_calendar_supported": true,
+      "pf": 0,
+      "pr": 0,
+      "remote_start": false,
+      "remote_start_enabled": true,
+      "remote_start_supported": true,
+      "rt": 0,
+      "sentry_mode": false,
+      "software_update": {
+        "expected_duration_sec": 2700,
+        "status": ""
+      },
+      "speed_limit_mode": {
+        "active": false,
+        "current_limit_mph": 85.0,
+        "max_limit_mph": 90,
+        "min_limit_mph": 50,
+        "pin_code_set": false
+      },
+      "sun_roof_percent_open": null,
+      "sun_roof_state": "unknown",
+      "timestamp": 1558229319158,
+      "valet_mode": false,
+      "vehicle_name": ":name"
+    }
+  }
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/vehicles/:id/service\_data" %}
+{% api-method-summary %}
+Vehicle Service Data
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name=":id" type="integer" required=true %}
+The vehicle `{id}` from the vehicle list
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Bearer `{access_token}` from authorization
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
