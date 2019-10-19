@@ -77,13 +77,13 @@ Revokes the `{access_token}` issued by the token command
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="Content-Type" type="string" required=true %}
+{% api-method-parameter name="Content-Type" type="string" required=false %}
 `application/json`
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
-{% api-method-parameter name="token" type="string" required=true %}
+{% api-method-parameter name="token" type="string" required=false %}
 `{access_token}`
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
