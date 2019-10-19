@@ -2,11 +2,11 @@
 
 {% api-method method="get" host="https://owner-api.teslamotors.com" path="/api/1/users/powerwall\_order\_entry\_data" %}
 {% api-method-summary %}
-
+Powerwall Order Entry Data
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Information about powerwall orders
 {% endapi-method-description %}
 
 {% api-method-spec %}
