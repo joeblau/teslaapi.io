@@ -76,7 +76,7 @@ get_options() {
 
 
 ###############################################################################
-# Geneartes option code lists for the Model S and Model X
+# Generates option code lists for the Model S and Model X
 # Arguments:
 #   None
 # Returns:
