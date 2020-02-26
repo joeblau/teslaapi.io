@@ -5,7 +5,7 @@ OAuth grant types supported
 * `refresh_token`  
 * `password`
 
-{% api-method method="post" host="https://owner-api.teslamotors" path="/oauth/token" %}
+{% api-method method="post" host="https://owner-api.teslamotors.com" path="/oauth/token" %}
 {% api-method-summary %}
 Get Access Token
 {% endapi-method-summary %}
