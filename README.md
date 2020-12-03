@@ -11,8 +11,9 @@ This site is broken into sections for different API information:
 ## What Tesla products are supported?
 
 * Tesla Model S
-* Tesla Model X
 * Tesla Model 3
+* Tesla Model X
+* Tesla Model Y
 
 ## What is teslaapi.io?
 
