@@ -21,7 +21,7 @@ This is a community of developers who are reverse engineering Tesla's API.
 
 ## What are the client\_id and client\_secret values?
 
-Authentication to the Tesla API is done through OAath. These values were retrieved from somebody's OAuth session and are now being used for API access.
+Authentication to the Tesla API is done through OAuth. These values were retrieved from somebody's OAuth session and are now being used for API access.
 
 ## Is this API official?
 
